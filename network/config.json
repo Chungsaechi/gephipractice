@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "이호연"
+  },
+  "text": {
+    "more": "",
+    "intro": "커피 CF에 출연한 모델들중 장수모델들만 따로 모아 성별에 따라 분류했고, \n그들이 출연한 CF들을 카테고리화하여 시각화했습니다.",
+    "title": "커피 CF에 출연한 장수모델들의 광고 카테고리 분석 결과"
+  },
+  "legend": {
+    "edgeLabel": "배우와 카테고리의 관계",
+    "colorLabel": "성별",
+    "nodeLabel": "카테고리, 커피CF에 출연한 장수모델"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
